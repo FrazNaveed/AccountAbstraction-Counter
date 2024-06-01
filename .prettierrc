@@ -1,0 +1,24 @@
+{
+    "overrides": [
+      {
+        "files": "*.sol",
+        "options": {
+          "printWidth": 80,
+          "tabWidth": 4,
+          "useTabs": false,
+          "singleQuote": false,
+          "bracketSpacing": false,
+          "explicitTypes": "always",
+          "importOrder": ["ARRAY OF IMPORT NAMES"],
+          "importOrderSeparation": true,
+          "importOrderSortSpecifiers": true        
+        }
+      },
+      {
+          "files": "*.test.js",
+          "options": {
+          "semi": true
+        }
+      }
+    ]
+  }
